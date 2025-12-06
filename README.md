@@ -64,7 +64,7 @@ git clone https://github.com//go-architecture-template
 ### 2. Copy it for a new project
 
 ```bash
-cp -R go-architecture-template your-new-service
+rsync -a go-architecture-template/  your-new-service
 ```
 
 ### 3. Replace the module name
